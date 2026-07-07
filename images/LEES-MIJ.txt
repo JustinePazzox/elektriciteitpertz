@@ -5,6 +5,9 @@ op de juiste projectkaart op de website verschijnen:
 - project-knokke.jpg        -> Knokke-Heist
 - project-oostende.jpg      -> Oostende
 - project-sintandries.jpg   -> Sint-Andries, Brugge
+- hero-electricien.jpg      -> grote foto helemaal boven op de website
 
 Tip: gebruik foto's in liggend formaat (bv. 1200x900 px) voor het beste resultaat.
+Voor hero-electricien.jpg werkt een staand/rechtopstaand formaat het best.
 Ontbreekt een foto? Dan blijft die kaart gewoon donkergrijs, geen probleem.
+Ontbreekt hero-electricien.jpg? Dan valt de foto boven gewoon weg, de rest blijft werken.
