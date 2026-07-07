@@ -4,7 +4,7 @@ op de juiste projectkaart op de website verschijnen:
 - project-spermalie.jpg     -> Spermalie, Brugge
 - project-knokke.jpg        -> Knokke-Heist
 - project-oostende.jpg      -> Oostende
-- project-sintandries.jpg   -> Sint-Andries, Brugge
+- project-kortrijk.jpg      -> Kortrijk
 - hero-electricien.jpg      -> grote foto helemaal boven op de website
 
 Tip: gebruik foto's in liggend formaat (bv. 1200x900 px) voor het beste resultaat.
