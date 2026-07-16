@@ -204,7 +204,7 @@ nav{
 
 /* CONTACT */
 .contact-grid{
-  display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start;
+  display:grid;grid-template-columns:1fr;max-width:520px;
 }
 .contact-list li{
   display:flex;gap:16px;margin-bottom:26px;align-items:flex-start;
