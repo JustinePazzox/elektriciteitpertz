@@ -204,8 +204,13 @@ nav{
 
 /* CONTACT */
 .contact-grid{
-  display:grid;grid-template-columns:1fr;max-width:520px;
+  display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start;
 }
+.map-frame.landkaart{
+  display:flex;align-items:center;justify-content:center;
+  background:#111;padding:20px;
+}
+.map-frame.landkaart img{max-width:100%;max-height:420px;width:auto;object-fit:contain;}
 .contact-list li{
   display:flex;gap:16px;margin-bottom:26px;align-items:flex-start;
 }
