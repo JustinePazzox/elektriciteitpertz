@@ -55,11 +55,15 @@ nav{
 }
 .nav-links a:hover{color:var(--amber);}
 .nav-cta{
+  display:inline-flex;align-items:center;gap:8px;
   background:var(--amber);color:var(--black)!important;
   padding:10px 20px;border-radius:30px;font-weight:600;font-size:0.9rem;
   transition:transform .2s, background .2s;
 }
 .nav-cta:hover{background:#dddddd;transform:translateY(-1px);}
+.nav-cta-wa{background:#25D366;color:#fff!important;}
+.nav-cta-wa svg{width:18px;height:18px;fill:#fff;}
+.nav-cta-wa:hover{background:#1ebe5b;}
 .burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;}
 .burger span{width:24px;height:2px;background:var(--white);border-radius:2px;}
 
