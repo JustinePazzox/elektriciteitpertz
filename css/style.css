@@ -201,11 +201,8 @@ nav{
   font-size:1.35rem;font-weight:500;line-height:1.5;margin-bottom:26px;
 }
 .testimonial cite{color:var(--amber);font-weight:600;font-size:0.95rem;}
-.light .testimonial{
-  background:var(--black);border-radius:var(--radius);padding:56px 40px;color:var(--white);
-}
 .light .testimonial .stars{color:#f5b942;}
-.light .testimonial cite{color:var(--white);}
+.light .testimonial cite{color:var(--black);}
 
 /* CONTACT */
 .contact-grid{
