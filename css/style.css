@@ -61,9 +61,9 @@ nav{
   transition:transform .2s, background .2s;
 }
 .nav-cta:hover{background:#dddddd;transform:translateY(-1px);}
-.nav-cta-wa{background:#25D366;color:#fff!important;}
-.nav-cta-wa svg{width:18px;height:18px;fill:#fff;}
-.nav-cta-wa:hover{background:#1ebe5b;}
+.nav-cta-wa{background:var(--white);color:var(--black)!important;}
+.nav-cta-wa svg{width:18px;height:18px;fill:var(--black);}
+.nav-cta-wa:hover{background:#dddddd;}
 .burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;}
 .burger span{width:24px;height:2px;background:var(--white);border-radius:2px;}
 
