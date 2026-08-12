@@ -198,14 +198,19 @@ nav{
 
 /* PROJECTEN + PHONE VIDEO */
 .projecten-flex{
-  display:grid;grid-template-columns:1fr auto;gap:40px;align-items:start;
+  display:grid;grid-template-columns:0.8fr auto;gap:40px;align-items:start;
 }
 .projects-grid-2col{
   grid-template-columns:repeat(2,1fr);
+  max-width:360px;
+  gap:16px;
+}
+.phone-col{
+  display:flex;flex-direction:column;align-items:center;
 }
 .phone-frame{
   position:relative;
-  width:230px;
+  width:320px;
   aspect-ratio:9/19.5;
   background:#000;
   border-radius:38px;
@@ -222,15 +227,16 @@ nav{
   width:100%;height:100%;object-fit:cover;
 }
 .benenwerk-caption{
-  text-align:center;max-width:600px;margin:48px auto 0;
+  text-align:center;max-width:320px;margin:20px auto 0;
 }
-.benenwerk-caption .tag{color:var(--amber);}
-.benenwerk-caption h3{font-size:1.5rem;font-weight:700;margin:10px 0 12px;}
-.benenwerk-caption p{color:#c9c9c9;margin-bottom:22px;}
+.benenwerk-caption .tag{color:var(--amber);font-size:0.72rem;}
+.benenwerk-caption h3{font-size:1.05rem;font-weight:700;margin:6px 0 8px;}
+.benenwerk-caption p{color:#c9c9c9;margin-bottom:14px;font-size:0.85rem;}
+.benenwerk-caption .btn{padding:10px 20px;font-size:0.85rem;}
 @media (max-width:900px){
   .projecten-flex{grid-template-columns:1fr;}
-  .phone-frame{margin:0 auto;order:-1;}
-  .projects-grid-2col{grid-template-columns:repeat(2,1fr);}
+  .phone-col{margin:0 auto;order:-1;}
+  .projects-grid-2col{grid-template-columns:repeat(2,1fr);margin:0 auto;}
 }
 @media (max-width:560px){
   .projects-grid-2col{grid-template-columns:1fr;}
