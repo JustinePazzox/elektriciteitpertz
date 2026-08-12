@@ -198,19 +198,23 @@ nav{
 
 /* PROJECTEN + PHONE VIDEO */
 .projecten-flex{
-  display:grid;grid-template-columns:0.8fr auto;gap:40px;align-items:start;
+  display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start;
 }
 .projects-grid-2col{
   grid-template-columns:repeat(2,1fr);
-  max-width:360px;
-  gap:16px;
+  flex:1 1 360px;
+  max-width:560px;
+  gap:20px;
+}
+.projects-grid-2col .project-card{
+  aspect-ratio:1/1;
 }
 .phone-col{
   display:flex;flex-direction:column;align-items:center;
 }
 .phone-frame{
   position:relative;
-  width:320px;
+  width:260px;
   aspect-ratio:9/19.5;
   background:#000;
   border-radius:38px;
@@ -234,7 +238,7 @@ nav{
 .benenwerk-caption p{color:#c9c9c9;margin-bottom:14px;font-size:0.85rem;}
 .benenwerk-caption .btn{padding:10px 20px;font-size:0.85rem;}
 @media (max-width:900px){
-  .projecten-flex{grid-template-columns:1fr;}
+  .projecten-flex{flex-direction:column;align-items:center;}
   .phone-col{margin:0 auto;order:-1;}
   .projects-grid-2col{grid-template-columns:repeat(2,1fr);margin:0 auto;}
 }
